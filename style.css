@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.banner{
+    position: relative;
+    min-height:100vh;
+    background-image: url(./img/bg.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textBx{
+    margin-left: 30px;
+}
+.banner h2
+{
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight:500;
+    margin-left: 20px;
+}
+.banner h3
+{
+    color: grey;
+    margin-left: 20px;
+}
+.btn {
+    margin-left: 20px;
+    margin-top: 10px;
+    left: 20px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 2px;
+}
+.btn:hover{
+    background-color: grey;
+    border-color: lightblue;
+}
+.sm-menu{
+    margin-bottom: 500px;
+    margin-right: 50px;
+    border-color: white;
+    border-width: 2px;
+    background-color:red;
+    padding: 10px;
+}
+.sm-menu ul {
+    list-style-type: none;
+  }
+.sm-menu li {
+    display: inline;
+    padding: 1em;
+    }
+.main-content{
+    text-align: center;
+}
+.main-content h2{
+    color: grey;
+    font-weight: 50px;
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item{
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+.personal-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+}
