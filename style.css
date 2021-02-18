@@ -40,15 +40,15 @@
     border-width: 2px;
 }
 .btn:hover{
-    background-color: grey;
+    background-color: lightblue;
     border-color: lightblue;
 }
 .sm-menu{
-    margin-bottom: 500px;
+    margin-bottom: 600px;
     margin-right: 50px;
     border-color: white;
+    background-color: transparent;
     border-width: 2px;
-    background-color:red;
     padding: 10px;
 }
 .sm-menu ul {
@@ -81,4 +81,37 @@
     border-color: black;
     border-width: 2px;
     text-align: center;
+    margin-left: 150px;
+    align-items: center;
+}
+footer{
+    position: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    background-color: lightgray;
+}
+.btn:btn-primary{
+    color: black;
+}
+#more{
+    display:none;
+}
+#submit-button{
+    color: black;
+    border-color: black;
+}
+#submit-button:hover{
+    transition: .5s;
+    background-color: green;
+}
+#reset-button{
+    color: black;
+    border-color: black;
+}
+#reset-button:hover{
+    transition: .5s;
+    background-color:red;
 }
