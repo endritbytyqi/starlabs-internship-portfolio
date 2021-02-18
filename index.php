@@ -1,5 +1,5 @@
 <?php
-require_once("contact.php");
+require_once("./src/contact.php");
 $cookiename = "user";
 $cookievalue = "Name LastName";
 setcookie($cookiename, $cookievalue, time() + (86400 * 30 * 30)); //30days
@@ -105,7 +105,7 @@ function myFunction() {
         <div class="col-md-6 mt-md-0 mt-3">
 
           <h5 class="text-uppercase">Kontaktoni</h5>
-          <form action="contact.php" method="POST">
+          <form action="./src/contact.php" method="POST">
         <p>Name</p> <input type="text" name="name" required>
         <p>Email</p> <input type="text" name="email" required>
         <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
